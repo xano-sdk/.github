@@ -4,7 +4,7 @@
 </picture>
 
 <p align="center">
-  <a href="https://github.com/xanots/sdk"><b>Xano SDK</b></a> ·
+  <a href="https://github.com/xano-sdk/sdk"><b>Xano SDK</b></a> ·
   <a href="https://www.npmjs.com/package/@xano/sdk">npm</a> ·
   <a href="https://xano.com">xano.com</a> ·
   <a href="https://docs.xano.com">Docs</a> ·
@@ -24,13 +24,13 @@ build on it as code.
     <source media="(prefers-color-scheme: dark)" srcset="assets/card-xano-dark.svg">
     <img alt="Xano: a hosted backend for business-critical systems. Postgres, APIs, auth, tasks, realtime, MCP servers and AI agents, run for you." src="assets/card-xano-light.svg" width="49%">
   </picture></a>
-  <a href="https://github.com/xanots/sdk"><picture>
+  <a href="https://github.com/xano-sdk/sdk"><picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/card-sdk-dark.svg">
     <img alt="Xano SDK: tables, endpoints, functions, tasks and agents as typed TypeScript in your repo." src="assets/card-sdk-light.svg" width="49%">
   </picture></a>
 </p>
 <p>
-  <a href="https://github.com/xanots/sdk#xano-on-your-machine"><picture>
+  <a href="https://github.com/xano-sdk/sdk#xano-on-your-machine"><picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/card-engine-dark.svg">
     <img alt="Xano Engine: the platform on your laptop. No account, no network, the same visual builder." src="assets/card-engine-light.svg" width="49%">
   </picture></a>
@@ -58,7 +58,7 @@ npm run dev                              # start the frontend, already wired to 
 ```
 
 When it's ready to share, `npm run xano:deploy:ephemeral` puts the same code on a live URL on
-Xano's cloud. The [Xano SDK README](https://github.com/xanots/sdk) covers the rest.
+Xano's cloud. The [Xano SDK README](https://github.com/xano-sdk/sdk) covers the rest.
 
 ## Modules
 
@@ -75,7 +75,7 @@ register in your own workspace.
 
 ## Get in touch
 
-Found a bug or want a feature? [Open an issue on the SDK](https://github.com/xanots/sdk/issues).
+Found a bug or want a feature? [Open an issue on the SDK](https://github.com/xano-sdk/sdk/issues).
 For everything else, visit the [Xano community](https://community.xano.com).
 
 <sub>Security, compliance and uptime: [trust center](https://security.xano.com) · [status](https://status.xano.com)</sub>

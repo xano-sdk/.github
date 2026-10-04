@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="320" viewBox="0 0 640 320" fill="none">
+  <defs>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1565FF"/><stop offset="1" stop-color="#4599FF"/></linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(640 0) rotate(135) scale(340)">
+      <stop offset="0" stop-color="#1565FF" stop-opacity="0.275"/>
+      <stop offset="1" stop-color="#1565FF" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="frame"><rect width="640" height="320" rx="18"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="640" height="320" fill="#13151B"/>
+    <rect width="640" height="320" fill="url(#glow)"/>
+  </g>
+  <rect x="0.5" y="0.5" width="639" height="319" rx="17.5" stroke="#262A35"/>
+  <g transform="translate(40 40)">
+    <circle cx="28" cy="28" r="9" fill="url(#blue)"/>
+    <circle cx="6" cy="8" r="5" stroke="#4599FF" stroke-width="3"/>
+    <circle cx="50" cy="8" r="5" stroke="#4599FF" stroke-width="3"/>
+    <circle cx="6" cy="48" r="5" stroke="#4599FF" stroke-width="3"/>
+    <circle cx="50" cy="48" r="5" stroke="#4599FF" stroke-width="3"/>
+    <path d="M10 12l11 10M46 12L35 22M10 44l11-10M46 44L35 34" stroke="#4599FF" stroke-width="2.5" stroke-linecap="round"/></g>
+  <rect x="450" y="40" width="150" height="32" rx="16" fill="url(#blue)"/>
+    <text x="525" y="61" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="700" letter-spacing="1.2" fill="#FFFFFF">COMING SOON</text>
+  <text x="40" y="128" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="600" letter-spacing="1.6" fill="#4599FF">AGENT CONTROL PLANE</text>
+  <text x="112" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="32" font-weight="800" letter-spacing="-0.6" fill="#F4F6FA">Xano Studio</text>
+  <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="19" fill="#9AA3B5"><tspan x="40" y="172">Run Claude Code, Codex and other agents on your</tspan><tspan x="40" y="202">computer. Direct them, review their work, and</tspan><tspan x="40" y="232">publish it to your Xano workspace.</tspan></text>
+  <path d="M40 246H600" stroke="#262A35"/>
+  <text x="40" y="282" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="#5C6476">Built on the Xano SDK and the Xano Engine</text>
+  
+</svg>

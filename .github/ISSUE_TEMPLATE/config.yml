@@ -1,0 +1,14 @@
+# The org-wide default for every xano-sdk repository without its own forms.
+# Blank issues are off: the forms ask for what makes a report actionable.
+blank_issues_enabled: false
+contact_links:
+  - name: Xano SDK (CLI, deploy, workspace authoring)
+    url: https://github.com/xano-sdk/sdk/issues
+    about: >-
+      For the `xanosdk` CLI and the `@xano/sdk` package rather than this
+      module.
+  - name: Question about Xano itself
+    url: https://docs.xano.com
+    about: >-
+      For the Xano platform rather than this module — the product docs and Xano
+      support are the right place.

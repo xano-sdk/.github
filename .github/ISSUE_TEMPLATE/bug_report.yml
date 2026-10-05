@@ -1,0 +1,75 @@
+name: Bug report
+description: Something in this module behaved differently than you expected.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report. The things that make a bug fixable fastest are
+        the code you wrote, the exact output you got back, and the versions you
+        ran it on.
+
+  - type: textarea
+    id: repro
+    attributes:
+      label: How to reproduce it
+      description: >-
+        The command you ran, and the smallest code that triggers it — usually
+        the call that registers this module and the request you sent. Redact
+        any secret or token first.
+      render: typescript
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: What happened
+      description: >-
+        The output, error message, response body or stack trace — paste it
+        verbatim rather than summarizing it.
+      render: shell
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected instead
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Module version
+      description: "`npm ls` for this package, e.g. `npm ls @xano-sdk/auth`."
+      placeholder: 1.0.1
+    validations:
+      required: true
+
+  - type: input
+    id: sdk-version
+    attributes:
+      label: "@xano/sdk version"
+      description: "`npm ls @xano/sdk`"
+      placeholder: 1.0.0
+    validations:
+      required: true
+
+  - type: input
+    id: node
+    attributes:
+      label: Node version
+      description: "`node --version`"
+      placeholder: v22.11.0
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Anything else
+      description: Related issues, or what you already tried.
+    validations:
+      required: false

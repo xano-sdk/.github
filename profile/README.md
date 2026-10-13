@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
-  <img alt="Xano SDK. AI builds software. Xano makes it trustworthy. Write your backend in TypeScript, or let an agent write it. Run it on your machine, then ship it to Xano's cloud." src="assets/hero-light.svg" width="100%">
+  <img alt="Xano SDK. Build, run and govern AI-built software. Your coding agent writes your backend in TypeScript. Run it on the Xano Engine, then ship it to Xano." src="assets/hero-light.svg" width="100%">
 </picture>
 
 <p align="center">
@@ -13,16 +13,17 @@
   <a href="https://www.youtube.com/@XanoHQ">YouTube</a>
 </p>
 
-[Xano](https://xano.com) is a hosted backend platform for systems that run in production. The
-**Xano SDK**, the **Xano Engine** and **Xano Studio** let you, and the AI agents working for you,
-build on it as code.
+[Xano](https://xano.com) is one platform to build, run and govern AI-built software, for
+business-critical systems in production. Your coding agent writes the backend in TypeScript with
+the **Xano SDK**, the **Xano Engine** runs it on your machine, and Xano runs it in production.
+**Xano Studio** (coming soon) is where you direct those agents and review their work.
 
 ## What we build
 
 <p>
   <a href="https://xano.com"><picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/card-xano-dark.svg">
-    <img alt="Xano: a hosted backend for business-critical systems. Postgres, APIs, auth, tasks, realtime, MCP servers and AI agents, run for you." src="assets/card-xano-light.svg" width="49%">
+    <img alt="Xano: one platform to build, run and govern AI-built software. Postgres, APIs, auth, tasks, realtime, MCP servers and AI agents, in one place." src="assets/card-xano-light.svg" width="49%">
   </picture></a>
   <a href="https://github.com/xano-sdk/sdk"><picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/card-sdk-dark.svg">
@@ -32,7 +33,7 @@ build on it as code.
 <p>
   <a href="https://github.com/xano-sdk/sdk#xano-on-your-machine"><picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/card-engine-dark.svg">
-    <img alt="Xano Engine: the platform on your laptop. No account, no network, the same visual builder." src="assets/card-engine-light.svg" width="49%">
+    <img alt="Xano Engine: the platform on your laptop. No account, no network, the same Xano editor." src="assets/card-engine-light.svg" width="49%">
   </picture></a>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/card-studio-dark.svg">
@@ -58,7 +59,7 @@ npm run dev                              # start the frontend, already wired to 
 ```
 
 When it's ready to share, `npm run xano:deploy:ephemeral` puts the same code on a live URL on
-Xano's cloud. The [Xano SDK README](https://github.com/xano-sdk/sdk) covers the rest.
+Xano. The [Xano SDK README](https://github.com/xano-sdk/sdk) covers the rest.
 
 ## Modules
 

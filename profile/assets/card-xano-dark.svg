@@ -19,7 +19,7 @@
   
   <text x="40" y="128" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="600" letter-spacing="1.6" fill="#4599FF">THE PLATFORM</text>
   <text x="112" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="32" font-weight="800" letter-spacing="-0.6" fill="#F4F6FA">Xano</text>
-  <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="19" fill="#9AA3B5"><tspan x="40" y="172">A hosted backend for business-critical systems.</tspan><tspan x="40" y="202">Postgres, APIs, auth, tasks, realtime, MCP</tspan><tspan x="40" y="232">servers and AI agents, run for you.</tspan></text>
+  <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="19" fill="#9AA3B5"><tspan x="40" y="172">One platform to build, run and govern AI-built</tspan><tspan x="40" y="202">software. Postgres, APIs, auth, tasks, realtime,</tspan><tspan x="40" y="232">MCP servers and AI agents, in one place.</tspan></text>
   <path d="M40 246H600" stroke="#262A35"/>
   <text x="40" y="282" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="#5C6476">SOC 2 Type II · ISO 27001 · HIPAA · GDPR</text>
   <text x="600" y="282" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" font-weight="600" fill="#4599FF">xano.com →</text>
